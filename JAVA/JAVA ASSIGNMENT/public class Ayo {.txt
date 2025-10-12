@@ -1,0 +1,39 @@
+public class Scores  {
+       public static void main (String []args){
+      
+      Scanner input = new scanner(System.in);
+      
+       System.out.print("enter first student name");
+       String name1 = input.nextline();
+       System.out.print(" enter the first score");
+
+ 
+       
+       system.out.println("enter second student name");
+       string text = Tom.nextline();
+       system.out.println("average score");
+       int score = 50();
+
+
+
+       
+       system.out.println("enter third student name");
+       string text = lil.nextline();
+       system.out.println("lowest score");
+       int score = 15();
+      
+       
+       
+
+
+       
+       
+         
+
+
+
+
+
+           
+           
+           

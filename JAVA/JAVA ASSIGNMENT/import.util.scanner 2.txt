@@ -1,0 +1,33 @@
+import java.util.Scanner;
+  public class Scores{
+    public static void main(String [] args) {   
+   Scanner Scores = new Scanner (system.in);
+   System.out.println("enter first user name");
+   String text=Scores.nextLine();
+   system.out.println("enter first user score");
+   int firstUserScore=Scores.nextInt();
+
+
+   System.out.println("enter second user name");
+   String Secondtext=scores.nextline();
+   System.out.println("enter second user score");
+   int secondUserScore=Score.nextInt();
+
+
+   System.out.println("enter second user name")
+   String Thirdtext=score.nextline();
+   System.out.println("enter third user score")
+   int thirdUserScore=Score.nextInt();
+
+
+
+
+
+
+
+
+
+
+
+
+}

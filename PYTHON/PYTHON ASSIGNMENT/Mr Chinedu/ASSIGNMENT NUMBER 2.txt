@@ -1,0 +1,29 @@
+ASSIGNMENT NUMBER 2
+PSEUDOCODE
+1 Prompt the user to enter an age
+2 assume the age is less than  zero if so display invalid
+3 assume the age is less than equals 12 if so display child 0-12
+4 assume the age is less than equals 19 if so display Teen 13-19
+5 assume the age is less than equals 59 if so display adult 20-59
+6 if not display senior 60+
+
+
+import java.util.Scanner ;
+      public class Age {
+            public static void main(String [] args) {
+                  Scanner input = new Scanner(System.in);
+                  System.out.print("Enter an age");
+                  int age = input.nextInt();
+                if(age < 0) {
+                  System.out.println("invalid");
+                } else if(age <= 12) {
+                  System.out.println("child 0-12");
+                } else if(age <= 19) {
+                  System.out.println("Teen 13-19");
+                } else if(age <= 59) {
+                  System.out.println("Adult 20-59");
+                } else {
+                  System.out.println("Senior 60+");
+                }
+                }
+                  

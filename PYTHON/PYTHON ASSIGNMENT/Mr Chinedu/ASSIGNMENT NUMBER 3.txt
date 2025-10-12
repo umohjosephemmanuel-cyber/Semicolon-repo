@@ -1,0 +1,31 @@
+ASSIGNMENT NUMBER 3
+PSEUDOCODE
+1 prompt user to enter a temperature
+2 assume the temperature is less than 0 display invalid
+3 assume the tempereture is less than and equals to 0 display freezing <0
+4 assume the tempereture is less than and equals 15 display cold 0-15
+5 assume the temperature is less than and equals 25 display warm 16-25
+6 if not display hot >25
+
+
+import java.util.Scanner;
+      public class Temperature {
+           public static void main(String [] args) {
+                 Scanner input = new Scanner(System.in);
+
+                 System.out.print("Enter a temperature");
+                 int temperature = input.nextInt();
+                if(temperature <0) {
+                 System.out.println("Invalid");
+                } else if(temperature <= 0) {
+                 System.out.println("Freezing <0");
+                } else if (temperature <= 15) {
+                 System.out.println("Cold 0-15");
+                } else if(temperature <= 25) {
+                 System.out.println("Warm 16-25");
+                } else {
+                 System.out.println("Hot > 25");
+                }
+                }
+                }
+               

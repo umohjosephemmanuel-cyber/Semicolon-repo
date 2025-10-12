@@ -1,0 +1,35 @@
+ASSIGNMENT NUMBER 8
+PSEUDOCODE
+1 Prompt the user to enter a number
+2 Assume the number if equals to zero
+3 Assume the number is greater than zero
+4 assume if the number is equals to zero then display positive even if not display positive odd
+5 assume if number is equals to zero then display negative even if not display negative odd
+
+
+import java.util.Scanner;
+      public class Positive {
+           public static void main {
+                Scanner input = new Scanner;
+                System.out.print("Enter a number");
+                int number = inputScanner.nextInt();
+              if(number >0) {
+                System.out.print("Number is zero");
+              }
+              if(number >0) {
+                System.out.println("Number is greater than zero");
+              if(number %2==0) {
+               } else {
+                 System.out.println("Positive odd");
+               }
+               }
+          else if(number<0) {
+                System.out.println("The number is less than zero");
+               if(number %2 ==0) {
+                 System.out.println("Negetive even");
+               } else {
+                 System.out.println("Negetive odd");
+               }
+               }
+               }
+               }

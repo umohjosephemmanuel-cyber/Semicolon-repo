@@ -1,0 +1,25 @@
+ASSIGNMENT NUMBER 4
+PSEUDOCODE
+1 prompt the user to enter a number
+2 assume if number is equals to 0 if so display even 
+3 if not display odd 
+4 if not the two then display invalid
+
+
+import java.util.Scanner;
+      public class Number {
+            public static void main(String [] args) {
+                  Scanner input = new Scanner(System.in);
+                  System.out.print("Enter a number");
+                  int number = scanner.nextInt();
+                if(number ==0) {
+                  System.out.println("Even");
+                } else if(number % 2 = 0) {
+                  System.out.println("Odd");
+                } else {
+                  System.out.println("Even");
+                } else if(both input are not the same) {
+                  System.out.println("Invalid");
+                }
+                }
+                }

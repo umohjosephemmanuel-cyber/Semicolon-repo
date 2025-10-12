@@ -1,0 +1,27 @@
+ASSIGNMENT NUMBER 5
+PSEUDOCODE
+1 Prompt the user to enter a grade letter
+2 change the number to uppercase to set grade letter
+3 assuming grade letter is a display pass
+4 assuming grade letter is f displsy fail
+5 if not the two then display invalid
+
+
+import java.util.Scanner;
+      public class Grade {
+           public static void main(String [] args) {
+                Scanner input = new Scanner(System.in);
+                System.out.print("Enter a grade letter (A-F)");
+                String grade = scanner.nextLine();
+                Stringgradeletter = gradeinput.to UpperCase();
+              if(gradeletter.equals("A")) {
+                System.out.println("Pass");
+              }
+              else if(gradeletter.equals("F")) {
+                 System.out.println("Fail");
+              }
+              else {
+                   System.out.println("Invalid");
+              }
+              }
+              }

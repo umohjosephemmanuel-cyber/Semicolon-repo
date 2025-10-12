@@ -1,0 +1,35 @@
+#  Prompt the user to enter a nonnegetive .
+
+#  Save the number entered by the user.
+
+#  If the number is less than 0 then, Display "Factoria is not defined for negetive numbers".
+
+#  If not, make factorial to be 1 for i from 1 to number 
+
+#  Multiply factorial by i 
+
+#  Display, "The factorial of number is", factorial.
+
+
+
+
+
+
+
+
+
+number = int(input("Enter a nonnegative integer:"))
+
+if number < 0:
+    
+   print("Factorial is not defined for negative numbers")
+
+else:
+
+   factorial = 1
+   
+   for i in range(1, n + 1):
+
+       factorial *= i
+
+   print(f"The factorial of {n} is {factorial}")

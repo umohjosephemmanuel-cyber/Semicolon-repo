@@ -1,0 +1,14 @@
+import java.util.Scanner;
+       public class Multiple {
+              public static void main(String [] args){
+                     Scanner input = new Scanner(System.in);
+                     System.out.print("Enter a number");
+                     int number = input.nextInt();
+
+                     System.out.println("multiplication table for" number +":");
+                     for(int count = 1:count <=12:count++) {
+int 
+                     System.out.println("number + "*"++"="+(number*));
+                    }
+                    }
+                    }

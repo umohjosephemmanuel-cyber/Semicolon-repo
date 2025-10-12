@@ -1,0 +1,25 @@
+import java.util.scanner;
+  public class cohort27 {
+    public static void main (string[]args){
+            scanner input = new Scanner(System.in);
+
+            System.out.println("Enter user name");
+            String text = input.nextline();
+
+            System.out.println("Enter user gmail");
+            String text = input.nextline();
+
+            System.out.println("Enter user age");
+            int age = input.nextint(); 
+
+            System.out.println("Enter user amount");
+            double amount = input.nextdouble();
+            
+            
+            System.out.print("The name is");
+            Syetem.out.print("The gmail is");
+            System.out.print("The age is");
+            System.out.print("The amount is");
+            
+            }
+           }

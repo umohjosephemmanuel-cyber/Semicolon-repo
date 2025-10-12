@@ -1,0 +1,14 @@
+import java.util.Scanner;
+       public class Attendance {
+              public static void main(String [] args) {
+                     Scanner input = new Scanner(System.in);
+                     
+                     System.out.print("Enter student attendance percentage");
+                     int percentage = input.nextInt ();
+                     
+                     System.out.print("Enter student average score");
+                     int averagescore = input.nextInt ();
+                 
+                   if (student attendance percentage >=("75")) {
+                      System.out.println("eligible for exam");
+                   

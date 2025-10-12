@@ -1,0 +1,28 @@
+ASSIGNMENT NUMBER 6
+PSEUDOCODE
+1 prompt the user to enter the number hours worked
+2 prompt the user to enter the number hourly rate
+3 assuming hoursworked is greater than hours limit then calculate the regularpay for the first 40 hours regularpayequals regularhours limit hourlyrate
+4 assumimg overtime hours equals hoursworked minus regular hourslimit
+5 assuming overtime pay equals overtime hours hourlyrates multiply by overtime rate
+6 assuming that total pay equals regular pay plus overtime pay else if overtime total pay is hours worked and hourlyrate then totalpay equals hoursworked multiply by hourly rate
+7 display total pay
+
+
+import java.util.Scanner;
+       public class Hours {
+            public static void main(String [] args) {
+                 Scanner input = new Scanner;
+                 System.out.print("Enter number of hours worked");
+                 double hoursWorked = input.nextDouble();
+                 System.out.print("Enter the hourly rate");
+                 double hourlyRate = input.nextDouble();
+              if(hoursWorked > Regularhourslimit) {
+                 regular = regular hourslimit*hourlyrate;
+                 double overtimehours = hoursWorked - regularhours limit;
+                 totalpay = regularpay + overtimepay;
+               } else {
+                 totalpay = hoursworked*hourlyrate;
+               }System.out.println("Totalpay");
+               }
+               }

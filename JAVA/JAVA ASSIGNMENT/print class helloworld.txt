@@ -1,0 +1,5 @@
+print class helloworld
+     public static void main(string[]args){
+     scanner umoh=new scanner(system.in);
+     system.out.println("what is your name");
+     string text=helloworld.nextline();

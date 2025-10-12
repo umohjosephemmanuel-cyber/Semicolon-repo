@@ -1,0 +1,8 @@
+family_name = ["Mummy","Daddy","Son","Daughter","Cousin"]
+
+family_score = []
+for_in range(5):
+       score = int(input("Enter student score: "))
+       family_scores.append(scores)
+print(family_name)
+print(family_scores)

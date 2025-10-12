@@ -1,0 +1,19 @@
+                               
+[public]:this an access modifier.
+[static]:tis means it belongs to asset.
+[class]:this is a blueprint or any name decleared after class is called a classname or identifier.
+[void]:this/they are something that cannot be returned.
+[main]:tis is a specia name that allows an entrance to codeing.
+[println]:this means to move to the nextline.
+[scanner]:this allows us to have access to input and information.
+[import]:this stand as a keyword.
+[system.in]:
+[system.out.println(who are you)]:
+[string]:this are datatype that are used to collect information and datatype.
+
+
+                         [TYPES OF DATATYPE]
+1:[BOOLEAN]=
+2:[INT]=These are a sets of numbers from 0 to infinity, [Exampls:1,2,3,4,5,6,7,8,9,10].
+3:[DOUBLE]=This are TWO set of number at the end of an AMOUNT which are used to indecate the amount of money that comes in,[Example:100,000.00/500,000.00/1,000,000.00].
+3:[FLOAT]=

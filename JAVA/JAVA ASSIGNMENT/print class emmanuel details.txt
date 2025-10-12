@@ -1,0 +1,21 @@
+public class cohort 27{
+      public static main(string[]args){
+            scanner Emmanuel=new scanner(system.in);
+            System.out.println("what is your name");
+            string text=umoh joseph Emmanuel.nextline();
+            System.out.println(what is your gmail");
+            string gmail=umohemmanuel@gmail.com.nextline();
+            System.out.println("what is your age");
+            string test = input nextint();
+            System.out.println("enter amount");
+            double amount=500,000.00.nextdouble();
+            
+            
+            system.out.println(text);
+            syetem.out.println(gmail);
+            system.out.println(age);
+            system.out.println(age);
+            system.out.println(amount);
+
+
+            }

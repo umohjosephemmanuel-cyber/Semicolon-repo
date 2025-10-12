@@ -1,0 +1,25 @@
+ASSIGNMENT NUMBER 10
+PSEUDOCODE
+1 prompt the user to enter a number
+2 assume the number is less than three display invalid
+3 assume for divisible 3 equals  0 display divisible by both if not display divisible by 3
+4 assume for divisible 5 equals 0 display divisible by 5 if not display not divisible
+
+
+import java.util.Scanner;
+     public class Divisible {
+           public static void main(String [] args) {
+                Scanner input = new Scanner(System.in);
+                System.out.print("Enter a number");
+                int number = inputscanner.nextInt();
+              if(number % 3 == 0 && number % 5 == 0) {
+                System.out.println("Divisible by both");
+              } else if(number % 3 == 0) {
+                 System.out.println("Divisible by 3");
+              } else if(number % 5 == 0) {
+                 System.out.printin("Divisible by 5");
+              } else {
+                 System.out.println("Not divisible");
+              }
+              }
+              }

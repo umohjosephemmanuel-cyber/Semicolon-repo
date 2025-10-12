@@ -1,0 +1,24 @@
+Assignment number 9
+PSEUDO CODE
+1 prompt the user to enter an account balance
+2 if the number is less than 100 display low
+3 if balance is greater and equals 100 and balance is less and equals 1000 display medium 
+4 if not the two dis 
+play high
+
+
+import java.util.Scanner;
+     public class Balance {
+          public static void main(String [] args) {
+               Scanner input = new Scanner(System.in);
+               System.out.print("Enter an account balance");
+               double balance = inputScanner.nextDouble();
+            if(balance<100) {
+               System.out.println("Low");
+            } else if(balance>=100 && balance <=1000) {
+               System.out.println("Medium");
+            } else {
+               System.out.println("High");
+            }
+            }
+            }

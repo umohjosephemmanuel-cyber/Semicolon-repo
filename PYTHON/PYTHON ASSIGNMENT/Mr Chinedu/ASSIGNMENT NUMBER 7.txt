@@ -1,0 +1,24 @@
+ASSIGNMENT NUMBER 7
+PSEUDOCODE
+1 prompt the user to enter the student attendance percentage
+2 prompt the user to enter the student average score
+3 assume attendance percentage is greater and equals to 75 and average score is greater and equals 75 if so display Eligible for exam
+4 if not display not eligible for exam
+
+
+import java.util.Scanner;
+      public class Attendance {
+     public static void main(String [] args) {
+            Scanner input = new Scanner(System.in);
+            System.out.print("Enter student percentage");
+            double attendance percentage = inputScanner.nextDouble();
+            System.out.print("Enter student average score");
+            double average score = inputScanner.nextDouble();
+          if(attendance percentage >= 75 && averagescore >=75) {
+            System.out.println("Eligible for exam");
+          } else {
+            System.out.println("Not Eligible for exam");
+          }
+          }
+          }
+        
